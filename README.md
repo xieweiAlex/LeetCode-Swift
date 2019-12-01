@@ -694,7 +694,7 @@
 |		|	190	|	[Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/)	| Easy	|
 |	[Swift](./Array/RotateArray.swift)	|	189	|	[Rotate Array](https://oj.leetcode.com/problems/rotate-array/)	| Easy	|
 |	[Swift](./DP/BestTimeBuySellStockIV.swift)	|	188	|	[Best Time to Buy and Sell Stock IV](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)	| Hard	|
-|		|	187	|	[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)	| Medium	|
+| [Swift](./Array/findRepeatedDNA_187.swift)|	187	|	[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)	| Medium	|
 |	[Swift](./String/ReverseWordsStringII.swift)	|	186	|	[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/) &hearts;	| Medium	|
 |	[Swift]((./Sort/LargestNumber.swift))	|	179	|	[Largest Number](https://oj.leetcode.com/problems/largest-number/)	| Medium	|
 |		|	174	|	[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/)	| Hard	|
