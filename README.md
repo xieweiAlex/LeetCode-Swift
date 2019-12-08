@@ -4,7 +4,7 @@
 ![Leetcode](./logo.png?style=centerme)
 
 ## Progress
-[Problem Status](#problem-status) shows the latest progress to all 1000+ questions. Currently we have 292 completed solutions. Note: questions with &hearts; mark means that you have to **Subscript to premium membership** of LeetCode to unlock them.
+[Problem Status](#problem-status) shows the latest progress to all 1000+ questions. Currently we have 298 completed solutions. Note: questions with &hearts; mark means that you have to **Subscript to premium membership** of LeetCode to unlock them.
 
 ## Contributors
 
@@ -25,7 +25,7 @@
 * [Math](#math)
 * [Search](#search)
 * [Sort](#sort)
-* [Union Find](#union-find)
+* [Graph](#graph)
 * [Design](#design)
 
 ## Companies
@@ -130,6 +130,7 @@
 [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [Swift](./String/LongestSubstringMostTwoDistinctCharacters.swift)| Hard| O(n)| O(n)|
 [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| [Swift](./String/LongestSubstringMostKDistinctCharacters.swift)| Hard| O(n)| O(n)|
 [Text Justification](https://leetcode.com/problems/text-justification/)| [Swift](./String/TextJustification.swift)| Hard| O(n)| O(n)|
+[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/)| [Swift](./String/FindClosestPalindrome.swift)| Hard| O(n)| O(n)|
 
 ## Linked List
 | Title | Solution | Difficulty | Time | Space |
@@ -187,6 +188,7 @@
 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [Swift](./Tree/ValidateBinarySearchTree.swift)| Medium| O(n)| O(log n)|
 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Swift](./Tree/BinaryTreeLevelOrderTraversal.swift)| Easy| O(n)| O(n)|
 [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [Swift](./Tree/BinaryTreeLevelOrderTraversalII.swift)| Easy| O(n)| O(n)|
+[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Swift](./Tree/MergeTwoBinaryTrees.swift) | Easy | O(n) | O(n) |
 [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Swift](./Tree/BinaryTreeZigzagLevelOrderTraversal.swift)| Medium| O(n)| O(n)|
 [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| [Swift](./Tree/BinaryTreeVerticalOrderTraversal.swift)| Medium| O(n)| O(n)|
 [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [Swift](./Tree/KthSmallestElementBST.swift)| Medium| O(n)| O(n)|
@@ -200,7 +202,8 @@
 [House Robber III](https://leetcode.com/problems/house-robber-iii/)| [Swift](./Tree/HouseRobberIII.swift)| Medium| O(n)| O(1)|
 [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [Swift](./Tree/UniqueBinarySearchTrees.swift)| Medium| O(n^2)| O(n)|
 [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)| [Swift](./Tree/RecoverBinarySearchTree.swift)| Hard| O(n)| O(1)|
-[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Swift](./Tree/MergeTwoBinaryTrees.swift) | Easy | O(n) | O(n) |
+[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Swift](./Tree/SerializeDeserializeBinaryTree.swift)| Hard| O(n)| O(n)|
+[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)| [Swift](./Tree/SerializeDeserializeNAryTree.swift)| Hard| O(n)| O(n)|
 
 ## Dynamic programming
 | Title | Solution | Difficulty | Time | Space |
@@ -324,6 +327,7 @@
 [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)| [Swift](./Math/KthSmallestLexicographicalOrder.swift)| Hard| O(n)| O(1)|
 [Gary Code](https://leetcode.com/problems/gray-code/)| [Swift](./Math/GaryCode.swift)| Medium| O(n)| O(2^n)|
 [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)| [Swift](./Math/PermutationSequence.swift)| Medium| O(n^2)| O(1)|
+[Line Reflection](https://leetcode.com/problems/line-reflection/)| [Swift](./Math/LineReflection.swift)| Medium| O(n)| O(n)|
 
 ## Search
 | Title | Solution | Difficulty | Time | Space |
@@ -356,18 +360,20 @@
 [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)| [Swift](./Sort/MeetingRooms.swift)| Easy| O(nlogn)| O(1)|
 [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)| [Swift](./Sort/MeetingRoomsII.swift)| Medium| O(nlogn)| O(n)|
 [Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [Swift](./Sort/MergeIntervals.swift)| Hard| O(nlogn)| O(n)|
-[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)| [Swift](./Sort/AlienDictionary.swift)| Hard| O(nm)| O(nm)|
+[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)| [Swift](./Graph/AlienDictionary.swift)| Hard| O(nm)| O(nm)|
 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| [Swift](./Sort/KthLargestElementInArray.swift)| Medium| O(nlogn)| O(n)|
 [Array Partition I](https://leetcode.com/problems/array-partition-i/description/)| [Swift](./Sort/ArrayPartitionI.swift)|Easy| O(nlogn)| O(n)|
 [Insert Interval](https://leetcode.com/problems/insert-interval/description/)| [Swift](./Sort/InsertInterval.swift)|Hard| O(n)| O(1)|
 [Largest Number](https://leetcode.com/problems/largest-number/)| [Swift](./Sort/LargestNumber.swift)| Medium| O(nlogn)| O(1)|
 
-## Union Find
+## Graph
 | Title | Solution | Difficulty | Time | Space |
 | ----- | -------- | ---------- | ---- | ----- |
-[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)| [Swift](./UnionFind/NumberConnectedComponentsUndirectedGraph.swift)| Medium| O(nlogn)| O(n)|
-[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)| [Swift](./UnionFind/GraphValidTree.swift)| Medium| O(nlogn)| O(n)|
-[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)| [Swift](./UnionFind/NumberIslandsII.swift)| Hard| O(klogmn)| O(mn)|
+[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)| [Swift](./Graph/NumberConnectedComponentsUndirectedGraph.swift)| Medium| O(nlogn)| O(n)|
+[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)| [Swift](./Graph/GraphValidTree.swift)| Medium| O(nlogn)| O(n)|
+[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)| [Swift](./Graph/NumberIslandsII.swift)| Hard| O(klogmn)| O(mn)|
+[Course Schedule](https://leetcode.com/problems/course-schedule/)| [Swift](./Graph/CourseSchedule.swift)| Medium| O(n)| O(n)|
+[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)| [Swift](./Graph/CourseScheduleII.swift)| Medium| O(n)| O(n)|
 
 ## Design
 | Title | Solution | Difficulty | Time | Space |
@@ -428,7 +434,7 @@
 [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)| [Swift](./Sort/MeetingRoomsII.swift)| Medium| ★★★★★★|
 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Swift](./Array/ValidSudoku.swift)| Easy| ★★★★★|
 [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| [Swift](./Tree/BinaryTreeVerticalOrderTraversal.swift)| Medium| ★★★★|
-[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)| [Swift](./Sort/AlienDictionary.swift)| Hard| ★★★★|
+[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)| [Swift](./Graph/AlienDictionary.swift)| Hard| ★★★★|
 [One Edit Distance](https://leetcode.com/problems/one-edit-distance/)| [Swift](./String/OneEditDistance.swift)| Medium| ★★★|
 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Swift](./Math/SudokuSolver.swift)| Hard| ★★★|
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Swift](./LinkedList/ReverseLinkedList.swift)| Easy| ★★|
@@ -584,7 +590,7 @@
 |		|	308	|	[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) &hearts;	|	Hard
 |		|	307	|	[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)	|	Medium
 |		|	306	|	[Additive Number](https://leetcode.com/problems/additive-number/)	|	Medium
-|	[Swift](./UnionFind/NumberIslandsII.swift)	|	305	|	[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)  &hearts;	|	Hard
+|	[Swift](./Graph/NumberIslandsII.swift)	|	305	|	[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)  &hearts;	|	Hard
 |	[Swift](./Array/NumMatrix.swift)	|	304	|	[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)	|	Medium
 |		|	303	|	[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)	| Easy
 |		|	302	|	[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)  &hearts;	|	Hard
@@ -620,7 +626,7 @@
 |	[Swift](./Search/ClosestBinarySearchTreeValueII.swift)	|	272	|	[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) &hearts;	|	Hard	|
 |		|	271	|	[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) &hearts;	|	Medium	|
 |	[Swift](./Search/ClosestBinarySearchTreeValue.swift)	|	270	|	[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) &hearts;	| Easy	|
-|	[Swift](./Sort/AlienDictionary.swift)	|	269	|	[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) &hearts;	|	Hard	|
+|	[Swift](./Graph/AlienDictionary.swift)	|	269	|	[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) &hearts;	|	Hard	|
 |	[Swift](./Math/MissingNumber.swift)	|	268	|	[Missing Number](https://leetcode.com/problems/missing-number/)	|	Easy	|
 |		|	267	|	[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) &hearts;	|	Medium	|
 |	[Swift](./String/PalindromePermutation.swift)	|	266	|	[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) &hearts;	| Easy	|
@@ -678,10 +684,10 @@
 |	[Swift](./DP/HouseRobberII.swift)	|	213	|	[House Robber II](https://leetcode.com/problems/house-robber-ii/)	|	Medium	|
 | [Swift](./DFS/WordSearchII.swift)	|	212	|	[Word Search II](https://leetcode.com/problems/word-search-ii/)	|	Hard	|
 |	[Swift](./DFS/WordDictionary.swift)	|	211	|	[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)	|	Medium	|
-|		|	210	|	[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)	|	Medium	|
+|	[Swift](./Graph/CourseScheduleII.swift)	|	210	|	[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)	|	Medium	|
 |	[Swift](./Array/MinimumSizeSubarraySum.swift)	|	209	|	[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)	|	Medium	|
 |	[Swift](./Design/ImplementTrie.swift)	|	208	|	[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)	|	Medium	|
-|		|	207	|	[Course Schedule](https://leetcode.com/problems/course-schedule/)	|	Medium	|
+|	[Swift](./Graph/CourseSchedule.swift)	|	207	|	[Course Schedule](https://leetcode.com/problems/course-schedule/)	|	Medium	|
 |	[Swift](./LinkedList/ReverseLinkedList.swift)	|	206	|	[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)	| Easy	|
 |	[Swift](./String/IsomorphicStrings.swift)	|	205	|	[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)	| Easy	|
 |	[Swift](./Math/CountPrimes.swift)	|	204	|	[Count Primes](https://leetcode.com/problems/count-primes/)	| Easy	|
