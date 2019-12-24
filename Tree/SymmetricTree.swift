@@ -18,23 +18,24 @@
  */
  
 class SymmetricTree {
-    func isSymmetric(_ root: TreeNode?) -> Bool {
-        guard let root = root else {
-            return true
-        }
-        
-        return isSymmetricHelper(root.left, root.right)   
+  private func isSymmetric(_ left: TreeNode?, _ right: TreeNode?) -> Bool {
+    if left == nil, right == nil {
+      return true 
+    }  
+
+    // Return false if one of node be nil 
+    guard let left = left, let right = right, left.val == right.val else {
+      return false
+    } 
+
+    return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left)
+  }
+
+  func isSymmetric(_ root: TreeNode?) -> Bool {
+    guard let root = root else {
+      return true
     }
-    
-    private func isSymmetricHelper(_ left: TreeNode?, _ right: TreeNode?) -> Bool {
-        if left == nil && right == nil {
-            return true
-        }
-        
-        if let left = left, let right = right, left.val == right.val {
-            return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left)
-        } else {
-            return false
-        }
-    }
+
+    return isSymmetric(root.left, root.right)
+  }
 }
