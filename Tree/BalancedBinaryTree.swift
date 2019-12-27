@@ -26,7 +26,8 @@ class BalancedBinaryTree {
             return 0
         }
         
-        let left = checkHeight(root.left), right = checkHeight(root.right)
+        let left = checkHeight(root.left)
+        let right = checkHeight(root.right)
         
         if left == -1 || right == -1 {
             return -1
