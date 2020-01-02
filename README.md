@@ -518,6 +518,7 @@
 | [Swift](./Array/subarraySum_560.swift)	|	560	|	[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)	| Medium	|
 | [Swift](./LinkedList/LFUCache.swift)	|	460	|	[LFU Cache](https://oj.leetcode.com/problems/lfu-cache/)	| Hard	|
 | [Swift](./Array/FindDisappearedNumbers.swift)| 448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| Easy|
+| [Swift](./DFS/decodeString_394.swift)	|	394	|	[Decode String O(1)](https://leetcode.com/problems/decode-string/)	|	Medium
 | [Swift](Array/getRandom_380.swift)	|	380	|	[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)	|	Medium
 | [Swift](./DFS/CombinationSumIV.swift)	|	377	|	[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)	|	Medium
 |		|	376	|	[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)	|	Medium
