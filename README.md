@@ -534,6 +534,7 @@
 | Solution | Number | Title | Difficulty |
 | -------- | ------ | ----- | ---------- |
 | [Swift](./Array/subarraySum_560.swift)	|	560	|	[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)	| Medium	|
+| [Swift](./DFS/findCircleNum_547.swift)	|	547	|	[Friend Circles](https://leetcode.com/problems/friend-circles/)	| Medium	|
 | [Swift](./LinkedList/LFUCache.swift)	|	460	|	[LFU Cache](https://oj.leetcode.com/problems/lfu-cache/)	| Hard	|
 | [Swift](./Array/FindDisappearedNumbers.swift)| 448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| Easy|
 | [Swift](./DFS/decodeString_394.swift)	|	394	|	[Decode String O(1)](https://leetcode.com/problems/decode-string/)	|	Medium
