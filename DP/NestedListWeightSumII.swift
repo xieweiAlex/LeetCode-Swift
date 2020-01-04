@@ -45,5 +45,70 @@
             }
         }
     }
+
+    // DFS I
+    private func dfs(_ nestedList: [NestedInteger], _ stack: inout [(value :Int, valDepth: Int)], _ depth: Int, _ maxDepth: inout Int) {
+
+      for nestedInt in nestedList {
+        if nestedInt.isInteger() {
+          let newValue = nestedInt.getInteger()
+          stack += [(newValue, depth)]
+        } else {
+
+          maxDepth = max(maxDepth, depth + 1)
+          dfs(nestedInt.getList(), &stack, depth+1, &maxDepth)
+        }
+      }
+
+    }
+
+    func depthSumInverseI(_ nestedList: [NestedInteger]) -> Int {
+      var stack = [(value: Int, valDepth: Int)]()
+
+      var maxDepth = 1
+      dfs(nestedList, &stack, 1, &maxDepth)
+
+      print("maxDepth: ", maxDepth)
+      var res = 0
+      for (value, valDepth) in stack {
+        print("level value: ", value, " depth: ", valDepth)
+        res += value * (maxDepth - valDepth + 1)
+      }
+
+      return res 
+    }
+
+    // DFS II 
+
+    private func dfsI(_ nestedList: [NestedInteger], _ dict: inout [Int: Int], _ depth: Int, _ maxDepth: inout Int) {
+
+      for nestedInt in nestedList {
+        if nestedInt.isInteger() {
+          
+          dict[depth, default: 0] += nestedInt.getInteger()
+        } else {
+
+          maxDepth = max(maxDepth, depth + 1)
+          dfsI(nestedInt.getList(), &dict, depth + 1, &maxDepth)
+        }
+      }
+    }
+
+    func depthSumInverseII(_ nestedList: [NestedInteger]) -> Int {
+
+      var dict = [Int: Int]()
+      var maxDepth = 1
+      dfsI(nestedList, &dict, 1, &maxDepth)
+
+      var res = 0
+      for key in dict.keys {
+        if let value = dict[key] {
+          
+          res += value * (maxDepth - key + 1)
+        }
+      }
+      return res
+    }    
+
 }
 
