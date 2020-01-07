@@ -533,6 +533,7 @@
 ## Problem Status
 | Solution | Number | Title | Difficulty |
 | -------- | ------ | ----- | ---------- |
+| [Swift](./DFS/maxAreaOfIsland_695.swift)	|	695	|	[Max Area of Islands](https://leetcode.com/problems/max-area-of-island/)	| Medium	|
 | [Swift](./Array/subarraySum_560.swift)	|	560	|	[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)	| Medium	|
 | [Swift](./DFS/findCircleNum_547.swift)	|	547	|	[Friend Circles](https://leetcode.com/problems/friend-circles/)	| Medium	|
 | [Swift](./LinkedList/LFUCache.swift)	|	460	|	[LFU Cache](https://oj.leetcode.com/problems/lfu-cache/)	| Hard	|
