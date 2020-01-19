@@ -672,7 +672,7 @@
 |	[Swift](./DFS/StrobogrammaticNumberII.swift)	|	247	|	[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) &hearts;	|	Medium	|
 |	[Swift](./Array/StrobogrammaticNumber.swift)	|	246	|	[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) &hearts;	| Easy	|
 |	[Swift](./Array/ShortestWordDistanceIII.swift)	|	245	|	[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) &hearts;	|	Medium	|
-|	[Swift](./String/ShortestWordDistanceII.swift)	|	244	|	[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) &hearts;	|	Medium	|
+|	[Swift](./Array/ShortestWordDistanceII.swift)	|	244	|	[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) &hearts;	|	Medium	|
 | [Swift](./String/ShortestWordDistance.swift)	|	243	|	[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) &hearts;	| Easy	|
 |	[Swift](./String/ValidAnagram.swift)	|	242	|	[Valid Anagram](https://leetcode.com/problems/valid-anagram/)	| Easy	|
 |	[Swift](./DP/DifferentWaysAddParentheses.swift)	|	241	|	[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)	|	Medium	|

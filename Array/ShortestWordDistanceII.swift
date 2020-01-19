@@ -23,7 +23,7 @@
         
         var i = 0, j = 0, minDistance = Int.max
         
-        while i < idxes1.count && j < idxes2.count {
+        while i < idxes1.count, j < idxes2.count {
             minDistance = min(abs(idxes1[i] - idxes2[j]), minDistance)
             
             if idxes1[i] < idxes2[j] {
