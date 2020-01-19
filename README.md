@@ -401,7 +401,7 @@
 [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)| [Swift](./Design/AddSearchWord.swift)| Medium | O(24^n)| O(n)|
 [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [Swift](./Design/InsertDeleteGetRandom.swift)| Medium| O(1)| O(n)|
 [LRU Cache](https://leetcode.com/problems/lru-cache/)| [Swift](./Design/LRUCache.swift)| Hard| O(1)| O(n)|
-[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)| [Swift](./Design/AllOne.swift)| Hard| O(1)| O(n)|
+[All One Data Structure](https://leetcode.com/problems/all-oone-data-structure/)| [Swift](./Design/AllOne.swift)| Hard| O(1)| O(n)|
 
 
 ## Google
@@ -533,6 +533,7 @@
 ## Problem Status
 | Solution | Number | Title | Difficulty |
 | -------- | ------ | ----- | ---------- |
+| [Swift](./String/printVertically_1324.swift)	|	1324	|	[Print Words Vertically](https://leetcode.com/contest/weekly-contest-172/problems/print-words-vertically)	| Medium	|
 | [Swift](./DFS/maxAreaOfIsland_695.swift)	|	695	|	[Max Area of Islands](https://leetcode.com/problems/max-area-of-island/)	| Medium	|
 | [Swift](./Array/subarraySum_560.swift)	|	560	|	[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)	| Medium	|
 | [Swift](./DFS/findCircleNum_547.swift)	|	547	|	[Friend Circles](https://leetcode.com/problems/friend-circles/)	| Medium	|
